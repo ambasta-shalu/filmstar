@@ -1,0 +1,83 @@
+.login-screen {
+  position: relative;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("D:\Moi Projects\Coding_With_VSC\Web_Dev_With_VSC\REACT-PROJECTS\filmstar\src\assests\banner.jpg");
+}
+
+.login-logo {
+  position: fixed;
+  left: 0;
+}
+
+.login-button {
+  position: fixed;
+  right: 0;
+  padding: 0.75rem 1rem;
+  margin: 2rem;
+  background-color: orangered;
+  color: wheat;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+    to top rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.login-contents {
+  position: absolute;
+  top: 30%;
+  z-index: 5;
+  color: wheat;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.login-contents > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 2rem;
+}
+
+.login-contents > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.login-contents > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.login-input-field {
+  width: 22rem;
+  padding: 0.75rem;
+  outline-width: 0;
+  border: none;
+  font-weight: 600;
+  color: black;
+}
+
+.get-started-button {
+  position: inherit;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
