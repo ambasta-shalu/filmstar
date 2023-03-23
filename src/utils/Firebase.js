@@ -1,9 +1,12 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCKSK4W459BuRXz98VYmRSmg1lSso-OXE4",
-  authDomain: "cinema-77a46.firebaseapp.com",
-  projectId: "cinema-77a46",
-  storageBucket: "cinema-77a46.appspot.com",
-  messagingSenderId: "138088561912",
-  appId: "1:138088561912:web:430ba69da93210f7778f0d",
-  measurementId: "G-S6E0ETJ4ZD",
+  apiKey: "AIzaSyClChDpMxXLOV73F32o--eCqy2_z0MufpQ",
+  authDomain: "filmstar-app.firebaseapp.com",
+  projectId: "filmstar-app",
+  storageBucket: "filmstar-app.appspot.com",
+  messagingSenderId: "314330213167",
+  appId: "1:314330213167:web:35418f6904522e9f8c4fda",
+  measurementId: "G-9NNDLVWW1Z",
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
