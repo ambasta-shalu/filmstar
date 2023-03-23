@@ -1,0 +1,49 @@
+.banner {
+  position: relative;
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+  color: wheat;
+}
+
+.banner-contents {
+  padding: 6rem 1rem;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.banner-buttons {
+  padding-top: 2rem;
+}
+
+.banner-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: wheat;
+  margin-right: 1rem;
+  border-radius: 0.2vw;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+.banner-button:hover {
+  color: black;
+  background-color: wheat;
+  transition: all 0.25s;
+}
+
+.banner-description {
+  line-height: 1.5;
+  padding-top: 2rem;
+  font-size: 1.25rem;
+  max-width: 50%;
+  letter-spacing: 1px;
+}

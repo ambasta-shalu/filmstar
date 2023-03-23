@@ -1,0 +1,24 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.nav-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.nav-avatar {
+  margin-top: 2rem;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.avatar {
+  width: 40%;
+}

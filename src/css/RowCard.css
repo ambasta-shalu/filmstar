@@ -1,0 +1,12 @@
+.row-card {
+  min-width: 8rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.row-card:hover {
+  transform: scale(1.05);
+  opacity: 0.5;
+  transition: all 0.5s;
+}
