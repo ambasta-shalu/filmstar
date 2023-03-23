@@ -51,7 +51,7 @@
   letter-spacing: 1px;
 }
 
-.signup-span-link :hover {
+.signup-span-link:hover {
   text-decoration: underline;
   text-decoration-color: white;
 }

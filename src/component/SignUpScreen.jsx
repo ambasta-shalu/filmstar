@@ -12,7 +12,7 @@ function SignUpScreen() {
     auth
       .signInWithEmailAndPassword(
         emailRef.current.value,
-        passwordRef.current.val
+        passwordRef.current.value
       )
       .then((authUser) => {
         console.log(authUser);
@@ -25,17 +25,17 @@ function SignUpScreen() {
   const register = (e) => {
     e.preventDefault();
 
-    // auth
-    //   .createUserWithEmailAndPassword(
-    //     emailRef.current.value,
-    //     passwordRef.current.val
-    //   )
-    //   .then((authUser) => {
-    //     console.log(authUser);
-    //   })
-    //   .catch((error) => {
-    //     alert(error.message);
-    //   });
+    auth
+      .createUserWithEmailAndPassword(
+        emailRef.current.value,
+        passwordRef.current.value
+      )
+      .then((authUser) => {
+        console.log(authUser);
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
   };
 
   return (
