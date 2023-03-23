@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+:root {
+  /* FONT-FAMILY-VARIABLE */
+  --FF: "Handlee", cursive;
+
+  /* COLORS-VARIABLE */
+  --BODY-BG-IMG: linear-gradient(
+    to right,
+    black,
+    rgba(10, 10, 10, 0.7),
+    transparent
+  );
+
+  /* SHADOW */
+  --SHADOW: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--FF);
+}
+
+body {
+  background-image: var(--BODY-BG-IMG);
+}
