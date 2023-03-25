@@ -4,7 +4,6 @@
   font-family: "Indie Flower", cursive;
   font-size: 1.5rem;
   padding: 1rem;
-  cursor: pointer;
   z-index: 5;
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   background-color: transparent;
@@ -12,4 +11,5 @@
 
 .logo-title {
   color: orangered;
+  cursor: pointer;
 }
