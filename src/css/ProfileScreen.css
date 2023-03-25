@@ -47,12 +47,13 @@
 .profile-plans > h3 {
   border-bottom: 1px solid #282c2d;
   padding-bottom: 0.5rem;
+  display: none;
 }
 
 .profile-button {
   font-size: 1rem;
   padding: 0.25rem 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   width: 100%;
   background-color: orangered;
   color: white;
@@ -60,4 +61,5 @@
   outline: none;
   cursor: pointer;
   font-weight: 600;
+  border-radius: 1rem;
 }
