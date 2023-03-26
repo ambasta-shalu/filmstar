@@ -127,9 +127,8 @@
 }
 
 @media (max-width: 370px) {
-
   .login-button {
-    padding: 0.5rem 0.75rem;
+    padding: 0.2rem 0.5rem;
   }
 
   .login-contents {
@@ -142,5 +141,41 @@
 
   .get-started-button {
     padding: 0.5rem 0.75rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .login-button {
+    /* padding: 0.2rem 0.4rem; */
+    display: none;
+  }
+
+  .login-contents {
+    top: 20%;
+  }
+
+  .login-contents > h1 {
+    font-size: 1.4rem;
+  }
+
+  .login-contents > h2 {
+    font-size: 1.1rem;
+  }
+
+  .login-contents > h3 {
+    font-size: 0.8rem;
+  }
+
+  .login-input-field {
+    width: 12rem;
+    padding: 0.65rem;
+  }
+
+  .get-started-button {
+    padding: 0.2rem 0.5rem;
+    margin-top: 1.2rem;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: normal;
   }
 }
