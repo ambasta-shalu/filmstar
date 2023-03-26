@@ -55,3 +55,14 @@
   text-decoration: underline;
   text-decoration-color: white;
 }
+
+@media (max-width: 300px) {
+  .signup-screen > form > input {
+    width: 12rem;
+  }
+
+  .signup-screen > form > button {
+    width: 12rem;
+    font-weight: 400;
+  }
+}
