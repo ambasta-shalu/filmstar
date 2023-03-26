@@ -47,3 +47,57 @@
   max-width: 50%;
   letter-spacing: 1px;
 }
+
+@media (max-width: 700px) {
+  .banner-contents {
+    padding: 5rem 1rem 2rem;
+  }
+
+  .banner-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+  }
+
+  .banner-buttons {
+    padding-top: 1rem;
+  }
+
+  .banner-button {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .banner-description {
+    font-size: 1.2rem;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .banner-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+  }
+
+  .banner-buttons {
+    padding-top: 0.8rem;
+  }
+
+  .banner-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+    max-width: 100%;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
