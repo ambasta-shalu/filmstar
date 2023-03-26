@@ -10,7 +10,7 @@
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 6%;
+  padding-top: 12%;
   max-width: 50rem;
 }
 
@@ -62,4 +62,44 @@
   cursor: pointer;
   font-weight: 600;
   border-radius: 1rem;
+}
+
+@media (max-width: 700px) {
+  .profile-contents {
+    padding-top: 20%;
+  }
+
+  .profile-contents > h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .profile-contents {
+    padding-top: 28%;
+  }
+
+  .profile-avatar {
+    width: 20%;
+  }
+}
+
+@media (max-width: 380px) {
+  .profile-contents {
+    padding-top: 30%;
+  }
+
+  .profile-avatar {
+    display: none;
+  }
+
+  .profile-details {
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .profile-contents {
+    padding-top: 50%;
+  }
 }
