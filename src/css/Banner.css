@@ -34,6 +34,7 @@
   background-color: rgba(50, 50, 50, 0.5);
 }
 
+.banner-button:focus,
 .banner-button:hover {
   color: black;
   background-color: wheat;

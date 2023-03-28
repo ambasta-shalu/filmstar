@@ -5,6 +5,7 @@
   object-fit: contain;
 }
 
+.row-card:focus,
 .row-card:hover {
   transform: scale(1.05);
   opacity: 0.5;
